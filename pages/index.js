@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image src={glover_logo} alt='glover logo' width='50' height='50' />
           </div>
-          <div className='flex flex-auto text-ls items-center place-content-around font-extrabold gap-8 lg:w-2/4 lg:px-80 lg:gap-1 lg:text-mds xl:'>
+          <div className='flex flex-auto text-ls items-center place-content-around font-extrabold gap-8 lg:w-2/4 lg:px-80 lg:gap-3 lg:text-mds xl:'>
             <p>About Us</p>
             <p>Products</p>
             <p>Resources</p>
@@ -66,7 +66,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='w-10/12 h-120 p-20 rounded-3xl bg-c1 mx-auto -mt-4 mb-4 sm:w-11/12 sm:-mt-8 sm:flex sm:gap-8 sm:h-130 lg:mb-8'>
+      <div className='w-10/12 h-120 p-20 rounded-3xl bg-c1 mx-auto -mt-4 mb-4 sm:w-11/12 sm:-mt-8 sm:flex sm:gap-8 sm:h-96 lg:h-130 lg:mb-8'>
         <div className='lg:w-96 lg:grid lg:content-center'>
           <h4 className='text-xl font-extrabold text-center mb-4 sm:text-3xl sm:text-left lg:text-5xl lg:leading-20'>Enjoy Seamless Giftcard Trading</h4>
           <p className='text-ls text-center sm:text-left sm:text-sm lg:text-lg lg:my-4'>Buy and sell Giftcard from over 20 countries around the world.</p>
@@ -111,7 +111,7 @@ export default function Home() {
               <button className='border border-blue-500 bg-white py-2 px-4 text-ls text-center rounded-lg my-6 sm:text-sm sm:mb-20'>Learn more</button>
             </div>
           </div>
-          <div className="w-11/12 absolute bottom-0 sm:absolute sm:bottom-0 sm:mx-auto sm:w-11/12 sm:px-4 lg:w-3/5 lg:h-80 lg:bottom-0">
+          <div className="w-3/6 h-50 absolute bottom-0 sm:absolute sm:bottom-0 sm:mx-auto sm:w-11/12 sm:px-4 lg:w-3/5 lg:h-80 lg:bottom-0">
             <Image src={perfect} alt='perfect' width='300' height='300' />
           </div>
         </div>
